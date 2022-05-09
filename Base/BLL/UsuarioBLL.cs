@@ -1,12 +1,26 @@
-﻿using System;
+﻿using Model;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class Class1
+    public class UsuarioBLL
     {
+        public void Inserir()
+        {
+
+        }
+
+        public void Excluir()
+        {
+
+        }
+        public void Alterar() 
+        { 
+        
+        }
+        public List<Usuario> Buscar()
+        {
+            return new List<Usuario>();
+        }
     }
 }
