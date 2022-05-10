@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace BLL
 {
     public class UsuarioBLL
-    {
+    { 
         public void Inserir()
         {
 
