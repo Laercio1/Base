@@ -44,5 +44,10 @@ namespace UIPrincipal
             usuario.Ativo = ativoCheckBox.Checked;
             usuarioBLL.Inserir(usuario);
         }
+
+        private void FormCadastroUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
