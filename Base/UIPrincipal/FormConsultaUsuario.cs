@@ -26,5 +26,26 @@ namespace UIPrincipal
         {
 
         }
+
+        private void buttonNovo_Click(object sender, EventArgs e)
+        {
+            using (FormCadastroUsuario frm = new FormCadastroUsuario())
+            {
+                frm.ShowDialog();
+            }
+        }
+
+        private void buttonSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void FormConsultaUsuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                buttonSair_Click(null, null);
+            }
+        }
     }
 }
