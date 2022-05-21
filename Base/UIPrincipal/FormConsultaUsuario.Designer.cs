@@ -57,16 +57,16 @@ namespace UIPrincipal
             this.panel1.Controls.Add(this.buttoAlterar);
             this.panel1.Controls.Add(this.buttonNovo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 460);
+            this.panel1.Location = new System.Drawing.Point(0, 487);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(816, 41);
-            this.panel1.TabIndex = 0;
+            this.panel1.Size = new System.Drawing.Size(826, 53);
+            this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // buttonSair
             // 
             this.buttonSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSair.Location = new System.Drawing.Point(729, 3);
+            this.buttonSair.Location = new System.Drawing.Point(739, 3);
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(75, 35);
             this.buttonSair.TabIndex = 3;
@@ -110,14 +110,14 @@ namespace UIPrincipal
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(816, 100);
+            this.panel2.Size = new System.Drawing.Size(826, 100);
             this.panel2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 0);
+            this.label1.Location = new System.Drawing.Point(13, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(800, 100);
             this.label1.TabIndex = 0;
@@ -127,10 +127,10 @@ namespace UIPrincipal
             // buttonBuscar
             // 
             this.buttonBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonBuscar.Location = new System.Drawing.Point(729, 90);
+            this.buttonBuscar.Location = new System.Drawing.Point(739, 90);
             this.buttonBuscar.Name = "buttonBuscar";
             this.buttonBuscar.Size = new System.Drawing.Size(66, 28);
-            this.buttonBuscar.TabIndex = 2;
+            this.buttonBuscar.TabIndex = 1;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
             this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
@@ -142,8 +142,8 @@ namespace UIPrincipal
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxBuscar.Location = new System.Drawing.Point(3, 98);
             this.textBoxBuscar.Name = "textBoxBuscar";
-            this.textBoxBuscar.Size = new System.Drawing.Size(719, 20);
-            this.textBoxBuscar.TabIndex = 2;
+            this.textBoxBuscar.Size = new System.Drawing.Size(729, 20);
+            this.textBoxBuscar.TabIndex = 0;
             // 
             // usuarioBindingSource
             // 
@@ -166,7 +166,7 @@ namespace UIPrincipal
             this.usuarioDataGridView.DataSource = this.usuarioBindingSource;
             this.usuarioDataGridView.Location = new System.Drawing.Point(7, 124);
             this.usuarioDataGridView.Name = "usuarioDataGridView";
-            this.usuarioDataGridView.Size = new System.Drawing.Size(797, 318);
+            this.usuarioDataGridView.Size = new System.Drawing.Size(807, 357);
             this.usuarioDataGridView.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn1
@@ -194,7 +194,7 @@ namespace UIPrincipal
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(816, 501);
+            this.ClientSize = new System.Drawing.Size(826, 540);
             this.Controls.Add(this.buttonBuscar);
             this.Controls.Add(this.usuarioDataGridView);
             this.Controls.Add(this.textBoxBuscar);
@@ -209,6 +209,7 @@ namespace UIPrincipal
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de usuários";
+            this.Load += new System.EventHandler(this.FormConsultaUsuario_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormConsultaUsuario_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

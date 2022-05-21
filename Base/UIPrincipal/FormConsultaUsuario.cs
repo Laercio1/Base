@@ -19,7 +19,10 @@ namespace UIPrincipal
 
         private void buttoAlterar_Click(object sender, EventArgs e)
         {
-
+            using (FormCadastroUsuario frm = new FormCadastroUsuario(usuarioBindingSource.Current))
+            {
+                frm.ShowDialog();
+            }
         }
 
         private void buttonNovo_Click(object sender, EventArgs e)
@@ -62,6 +65,12 @@ namespace UIPrincipal
             usuarioBLL.Excluir(id);
             usuarioBindingSource.RemoveCurrent();
             MessageBox.Show("Registro excluido com sucesso!");
+        }
+
+        private void FormConsultaUsuario_Load(object sender, EventArgs e)
+        {
+            UsuarioBLL usuarioBLL = new UsuarioBLL();
+            usuarioBindingSource.DataSource = usuarioBLL.Buscar(textBoxBuscar.Text);
         }
     }
 }

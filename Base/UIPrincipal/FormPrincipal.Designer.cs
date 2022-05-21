@@ -123,12 +123,12 @@ namespace UIPrincipal
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(816, 100);
+            this.panel1.Size = new System.Drawing.Size(816, 110);
             this.panel1.TabIndex = 1;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(285, 3);
+            this.button4.Location = new System.Drawing.Point(285, 7);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(88, 97);
             this.button4.TabIndex = 3;
@@ -136,7 +136,7 @@ namespace UIPrincipal
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(191, 3);
+            this.button3.Location = new System.Drawing.Point(191, 7);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(88, 97);
             this.button3.TabIndex = 2;
@@ -144,7 +144,7 @@ namespace UIPrincipal
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(97, 3);
+            this.button2.Location = new System.Drawing.Point(97, 7);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 97);
             this.button2.TabIndex = 1;
@@ -152,7 +152,7 @@ namespace UIPrincipal
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Location = new System.Drawing.Point(3, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 97);
             this.button1.TabIndex = 0;
@@ -179,9 +179,9 @@ namespace UIPrincipal
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 124);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 134);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(816, 355);
+            this.pictureBox1.Size = new System.Drawing.Size(816, 345);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 

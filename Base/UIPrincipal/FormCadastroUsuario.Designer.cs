@@ -87,7 +87,7 @@ namespace UIPrincipal
             // 
             // buttonSalvar
             // 
-            this.buttonSalvar.Location = new System.Drawing.Point(7, 466);
+            this.buttonSalvar.Location = new System.Drawing.Point(7, 392);
             this.buttonSalvar.Name = "buttonSalvar";
             this.buttonSalvar.Size = new System.Drawing.Size(75, 35);
             this.buttonSalvar.TabIndex = 5;
@@ -97,7 +97,7 @@ namespace UIPrincipal
             // 
             // buttonSalvarECadastrarNovo
             // 
-            this.buttonSalvarECadastrarNovo.Location = new System.Drawing.Point(88, 466);
+            this.buttonSalvarECadastrarNovo.Location = new System.Drawing.Point(88, 392);
             this.buttonSalvarECadastrarNovo.Name = "buttonSalvarECadastrarNovo";
             this.buttonSalvarECadastrarNovo.Size = new System.Drawing.Size(150, 35);
             this.buttonSalvarECadastrarNovo.TabIndex = 6;
@@ -107,7 +107,7 @@ namespace UIPrincipal
             // 
             // buttonSair
             // 
-            this.buttonSair.Location = new System.Drawing.Point(729, 466);
+            this.buttonSair.Location = new System.Drawing.Point(632, 392);
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(75, 35);
             this.buttonSair.TabIndex = 7;
@@ -161,7 +161,7 @@ namespace UIPrincipal
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(816, 78);
+            this.label1.Size = new System.Drawing.Size(719, 78);
             this.label1.TabIndex = 12;
             this.label1.Text = "Cadastro de usuários";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -170,7 +170,7 @@ namespace UIPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 501);
+            this.ClientSize = new System.Drawing.Size(719, 432);
             this.Controls.Add(this.label1);
             this.Controls.Add(ativoLabel);
             this.Controls.Add(this.ativoCheckBox);
@@ -184,6 +184,7 @@ namespace UIPrincipal
             this.Controls.Add(this.buttonSalvarECadastrarNovo);
             this.Controls.Add(this.buttonSalvar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCadastroUsuario";
