@@ -73,20 +73,13 @@ namespace UIPrincipal
 
         private void buttonSalvarECadastrarNovo_Click(object sender, EventArgs e)
         {
-            // try
-            //{
             usuarioBindingSource.EndEdit();
             Inserir();
             MessageBox.Show("Cadastro realizado com sucesso!");
             usuarioBindingSource.DataSource = typeof(Usuario);
             usuarioBindingSource.AddNew();
+            inserindoNovo = true;
             nomeUsuarioTextBox.Focus();
-            //}
-            // catch (Exception ex)
-            //  {
-            //    MessageBox.Show("Ocorreu um erro: " + ex.Message);
-
-            //  }
         }
 
     }
